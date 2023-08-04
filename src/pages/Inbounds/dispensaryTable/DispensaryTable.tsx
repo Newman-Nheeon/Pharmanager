@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../../../components/Container'
-import PrescriptionTable from '../../../components/tables/PrescriptionTable/PrescriptionTable'
+import PrescriptionTable from '../../../components/Tables/PrescriptionTable/PrescriptionTable'
 
 const data = [
   {
