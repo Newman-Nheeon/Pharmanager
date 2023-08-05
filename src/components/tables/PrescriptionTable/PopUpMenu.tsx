@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './tables.module.scss';
 import { Icon } from '@iconify/react';
-import { filterParameters } from './prescriptionData';
+import { filterParameters } from './prescriptionData'
 
 interface Obj {
   name: string;
@@ -12,8 +12,6 @@ interface Props {
   parameters: Obj[]
   name: string;
 }
-
-
 
 const PopUpMenu: React.FC<Props> = (props) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -27,7 +25,7 @@ const PopUpMenu: React.FC<Props> = (props) => {
 
 //   const handleMenuItemClick = (menuItem) => {
 //     console.log(`Selected menu item for ${items}:`, menuItem);
-//     // Handle the selected menu item here
+   // Handle the selected menu item here
 //   };
 
 

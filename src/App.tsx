@@ -25,7 +25,7 @@ function App() {
             <Route path="/" element={<MainLayout />}>
               <Route index element={<Dashboard />} />
               <Route path="/inbounds/*" element={<Inbounds />}/>
-              <Route path="/manager" element={<Manager />}/>
+              <Route path="/manager/*" element={<Manager />}/>
               <Route path="/crm" element={<Crm />}/>
               <Route path="/bankOffice" element={<BankOffice />}/>
               <Route path="/settings" element={<Settings />}/>
