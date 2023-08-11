@@ -146,14 +146,14 @@ const data = [
 ]
 
 
-const filterOptions = ["Available prescriptions", "Rejected prescriptions", "Accepted quotes"];
+const filterOptions = ["All", "Limit Alerts"];
 const filterParameters = [{name: "Pending", options: ["Quote", "View Details"]}, 
 {name: "Rejected", options: ["Delete", "View Details"]}, 
 {name: "Dispensed", options: ["Delete", "View Details"]}]
-const tableHeading = ["Order ID", "Date", "Client Name", "Location", "Status"]
+const tableHeading = ["Inventory ID", "Item name", "Brand", "Current quantity", "Status"]
 
 
-const DispensaryTable: React.FC = () => {
+const ViewInventories: React.FC = () => {
   return (
     <Container type='blue-border'>
         <div style={{
@@ -168,4 +168,4 @@ const DispensaryTable: React.FC = () => {
   )
 }
 
-export default DispensaryTable
+export default ViewInventories
