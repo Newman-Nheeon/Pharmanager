@@ -23,7 +23,7 @@ export default withRoutes( {
         prevRoute: '/inbounds'
       },
       {
-        path: "checkout", 
+        path: "checkout",
         Route: Checkout,
         text: 'Dispensary Counter',
         subtext: 'checkout',

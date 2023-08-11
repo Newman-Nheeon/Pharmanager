@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import InventoryBtn from '../../../components/Button/InventoryBtn';
 import Card from '../../../components/Cards/card';
 import { Link } from 'react-router-dom'
@@ -9,7 +9,6 @@ import HistoryTable from '../../../components/Tables/InventoryTable/History';
 // import Popup from '../Popup';
 
 const Inventory: React.FC=() => {
-  const [openPopup, setOpenPopup] = useState(false)
   return (
     <>
     <section>
