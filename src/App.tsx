@@ -21,6 +21,9 @@ import PrescriptionDetails from "./pages/Inbounds/prescription/PrescriptionDetai
 import Cart from "./pages/Inbounds/prescription/cart";
 import Checkout from "./pages/Inbounds/prescription/checkout";
 import CreateQuote from "./pages/Inbounds/prescription/createquote";
+import SignUp from "./pages/Auth/SignUp";
+import Login from "./pages/Auth/Login";
+import ForgotPassword from "./pages/Auth/ForgotPassword";
 
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 
@@ -31,6 +34,10 @@ function App() {
         <Routes>
           {/* <Route element={<AuthLayout />}> */}
             <Route path="/" element={<Home />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+
             <Route path="/account" element={<MainLayout />}>
               <Route index element={<Dashboard />} />
 
